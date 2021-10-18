@@ -21,4 +21,6 @@ To run this code the following needs to be done:
 The report will be showing my Dashbaord: https://dashboard.cypress.io/projects/37mtnk/runs/1/specs
 ![image](https://user-images.githubusercontent.com/38430731/137801677-71a7982d-2d5a-4d36-b61c-b6222e69f1cd.png)
 
+You can also use npx cypress run --spec 'cypress/integration/contactFrom.spec.js' "--browser" "firefox" to specify the Browser
+
 
