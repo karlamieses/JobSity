@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run_spec": "npx cypress run --spec 'cypress/integration/contactFrom.spec.js'",
+    "cy:run_browser": " npm run cu:run_spec -- --browser chrome & npm run cy:run_spec -- --browser firefox"
   },
   "author": "",
   "license": "ISC",
