@@ -6,9 +6,9 @@ This code has been developed utilizing Cypress as automation tool.
 
 Cypress can be install by doing the following steps:
 
-npm init
-npm install cypress --save-dev
-npx cypress open to install the Cypress folder and open the Dashboard
+1. npm init
+2. npm install cypress --save-dev
+3. npx cypress open to install the Cypress folder and open the Dashboard
 
 🚀 Make it run
 
